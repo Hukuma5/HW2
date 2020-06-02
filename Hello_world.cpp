@@ -2,9 +2,8 @@
 #include <string>
 
 int
-main()
-{
-  string username;
+main(int argc, const char * argv[]){
+  std::string username;
   std::cin >> username;
-  srd::cout << "Hello world from" << username << "!";
+  srd::cout << "Hello world from" << username << "!";//hello world from username
   return 0;
